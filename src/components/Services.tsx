@@ -74,7 +74,7 @@ export function Services() {
                     initial={{ x: 0 }}
                     whileHover={{ x: 5 }}
                   >
-                    â
+                    →
                   </motion.span>
                 </div>
               </div>
