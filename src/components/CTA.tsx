@@ -46,7 +46,7 @@ export function CTA() {
                 initial={{ x: 0 }}
                 whileHover={{ x: 10 }}
               >
-                â†’
+                →
               </motion.span>
             </span>
             <div className="absolute inset-0 bg-zinc-200 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500 ease-out" />
