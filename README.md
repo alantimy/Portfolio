@@ -1,20 +1,92 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Alan Timmy's Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website! This project showcases my work, skills, and experience as a developer.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Site
 
-View your app in AI Studio: https://ai.studio/apps/db69e3bc-107e-468f-bd90-f100eaa2a259
+Visit my portfolio: [Portfolio Website](https://your-portfolio-url.com)
 
-## Run Locally
+## 📋 About
 
-**Prerequisites:**  Node.js
+This is my personal portfolio website built to showcase my projects, skills, and professional background. It features a clean, modern design with a responsive layout that works across all devices.
 
+## 💻 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: HTML, CSS, JavaScript
+- **Build Tool**: Vite
+- **Hosting**: Netlify
+- **Version Control**: Git
+
+## 📁 Project Structure
+```
+├── src/                    # Source files
+├── assets/                 # Images, fonts, and other static assets
+├── .github/workflows/      # CI/CD workflows
+├── index.html              # Main entry point
+├── package.json            # Project dependencies
+├── vite.config.ts          # TypeScript configuration
+├── tsconfig.json           # TypeScript configuration
+└── README.md               # This file
+```
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+```
+
+2. **Install dependencies**
+```bash
+   npm install
+```
+
+3. **Run the development server**
+```bash
+   npm run dev
+```
+   The site will be available at `http://localhost:5173`
+
+4. **Build for production**
+```bash
+   npm run build
+```
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build locally
+
+## 🌐 Deployment
+
+This project is configured for deployment on **Netlify**:
+
+- The base path is configured in `vite.config.ts` for proper routing
+- GitHub workflows are set up in `.github/workflows`
+- Environment variables can be set in `.env` (see `.env.example`)
+
+## ✨ Features
+
+- Responsive design that works on mobile, tablet, and desktop
+- Fast performance with Vite build optimization
+- Clean, modern UI showcasing projects and skills
+- Easy to customize and maintain
+
+## 📧 Contact
+
+Feel free to reach out to me:
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- GitHub: [Your GitHub](https://github.com/yourusername)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Last Updated**: March 2026
+
+Made with ❤️ by Alan Timmy
