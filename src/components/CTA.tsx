@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
+import ctaBg from '../../assets/kling_20260315_作品_Dynamic_Pr_1238_0.mp4';
 
 export function CTA() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,8 +14,19 @@ export function CTA() {
 
   return (
     <section ref={containerRef} className="py-48 bg-zinc-950 text-white relative overflow-hidden flex items-center justify-center min-h-screen">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05)_0%,transparent_100%)] pointer-events-none" />
-      
+      {/* Video Background */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        style={{ objectPosition: 'center 10%' }}
+        src={ctaBg}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/50 z-[1]" />
+
       <div className="container mx-auto px-6 text-center relative z-10">
         <motion.div style={{ y, opacity }} className="flex flex-col items-center">
           <h2 className="text-6xl md:text-9xl font-bold tracking-tighter uppercase mb-8 leading-none">

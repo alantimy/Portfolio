@@ -49,7 +49,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.8 }}
           className="text-lg md:text-xl text-white/60 max-w-2xl mb-12 font-light"
         >
-          Building Skills in Web Development & Digital Marketing | Open to Internships
+          Building Skills in Web Development &amp; Digital Marketing | Open to Internships
         </motion.p>
 
         <motion.div 
