@@ -8,6 +8,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: 'BlinkGuard',
+    category: 'AI & Health Tech',
+    description: 'AI-powered blink rate monitor that detects eye strain during screen use. Built with React, MediaPipe, and Firebase for real-time eye health tracking.',
+    technologies: ['React', 'MediaPipe', 'Firebase', 'AI'],
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000',
+    video: 'https://cdn.coverr.co/videos/coverr-a-person-working-on-a-computer-4590/1080p.mp4',
+    github: 'https://github.com/alantimy/blinkguard',
+    demo: '#',
+  },
+  {
+    title: 'Outfitly',
+    category: 'Web Development',
+    description: 'A JavaScript-based outfit planning web app that helps users organize and style their wardrobe with a clean, interactive interface.',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2000',
+    video: 'https://cdn.coverr.co/videos/coverr-fashion-items-on-a-rack-2088/1080p.mp4',
+    github: 'https://github.com/alantimy/outfitly',
+    demo: '#',
+  },
+  {
     title: 'AI News Summarizer',
     category: 'AI & Python',
     description: 'AI-powered news summarizer built with Python and Streamlit. Processes news articles and generates concise summaries using intelligent algorithms.',
