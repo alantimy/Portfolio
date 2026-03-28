@@ -22,7 +22,7 @@ const projects = [
     category: 'Web Development',
     description: 'A JavaScript-based outfit planning web app that helps users organize and style their wardrobe with a clean, interactive interface.',
     technologies: ['JavaScript', 'HTML', 'CSS'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=2000',
+    image: '/outfitly-preview.png',
     video: 'https://cdn.coverr.co/videos/coverr-fashion-items-on-a-rack-2088/1080p.mp4',
     github: 'https://github.com/alantimy/outfitly',
     demo: '#',
